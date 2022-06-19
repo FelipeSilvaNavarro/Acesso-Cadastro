@@ -9,7 +9,7 @@ public class Conexao {
 	public static Connection faz_conexao() throws SQLException {
 		final String url = "jdbc:mysql://localhost/db_senhas";
 		final String usuario = "root";
-		final String senha = "Felipe@17082022";
+		final String senha = "************";
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			return DriverManager.getConnection(url, usuario, senha);
